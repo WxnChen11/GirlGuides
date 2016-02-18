@@ -1,0 +1,18 @@
+{
+  "name": "Happy Badge",
+  "description": "Test Badge for Girl Guides Project",
+  "image": "http://vignette1.wikia.nocookie.net/callofduty/images/b/b1/Happy_face.png/revision/latest?cb=20120119062235",
+  "criteria": "https://example.org/user-badge.html",
+  "tags": ["girl guides", "cookies"],
+  "issuer": "https://s3.amazonaws.com/wenxinbucket1/sample-issuer.json",
+  "alignment": [
+    { "name": "CCSS.ELA-Literacy.RST.11-12.3",
+      "url": "http://www.corestandards.org/ELA-Literacy/RST/11-12/3",
+      "description": "Follow precisely a complex multistep procedure when carrying out experiments, taking measurements, or performing technical tasks; analyze the specific results based on explanations in the text."
+    },
+    { "name": "CCSS.ELA-Literacy.RST.11-12.9",
+      "url": "http://www.corestandards.org/ELA-Literacy/RST/11-12/9",
+      "description": " Synthesize information from a range of sources (e.g., texts, experiments, simulations) into a coherent understanding of a process, phenomenon, or concept, resolving conflicting information when possible."
+    }
+  ]
+}

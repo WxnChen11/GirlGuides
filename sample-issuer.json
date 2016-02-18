@@ -1,0 +1,7 @@
+{
+  "name": "The Veep Peeps",
+  "image": "http://vignette1.wikia.nocookie.net/callofduty/images/b/b1/Happy_face.png/revision/latest?cb=20120119062235",
+  "url": "https://example.org",
+  "email": "example@example.org",
+  "revocationList": "https://s3.amazonaws.com/wenxinbucket1/revoked.json"
+}
