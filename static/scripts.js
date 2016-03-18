@@ -4,8 +4,12 @@
 
 
 
+<<<<<<< HEAD
 //(function(){var s=document.createElement("script");s.onload=function()
 //{bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
+=======
+(function(){var s=document.createElement("script");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
+>>>>>>> f565f9865e47c8a54a1e9afe75b64ccbdd7fecbe
 
 
 //set height of containers to 90% window height
@@ -21,4 +25,8 @@ var wJumbo = $("#main_container").width();
 
 $(".badges").hover(function(){($(this).attr("src", "/badgeSampleHover.png"))},function(){($(this).attr("src", "/badgeSample.png"))});
 
+<<<<<<< HEAD
 $(".badges").click(function(){$("#dummybutton").trigger('click'); console.log("click")});
+=======
+$(".badges").click(function(){$("#dummybutton").trigger('click'); console.log("click")});
+>>>>>>> f565f9865e47c8a54a1e9afe75b64ccbdd7fecbe
