@@ -1,0 +1,47 @@
+#mainwin{
+
+    background-color:#BDD8F1;
+    height:700px;
+    padding:10px;
+}
+
+.displayTable{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.displayTable > div {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+#logo{
+
+    padding-left:10px;
+}
+
+#nav a{
+    color:#ffffff;
+}
+
+#nav{
+
+    padding-top:10px;
+    color:#FFFFFF;
+}
+
+#main_container{
+    background-color:#00549E;
+    height:800px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #428bca;
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #DEDEDE;
+}
