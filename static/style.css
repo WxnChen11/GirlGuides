@@ -1,0 +1,63 @@
+/*Created by Winston Chen on 03/12/16*/
+
+/*main jumbotron container*/
+#mainwin{
+
+    background-color:#BDD8F1;
+    padding:10px;
+    height: 500px;
+}
+
+#dummybutton{
+    visibility:hidden;
+    z-index: -1;
+}
+
+.badges{
+
+    height:100px;
+
+}
+
+/*evenly distribute <div> across row*/
+.displayTable{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.displayTable > div {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+/*aligning logo*/
+#logo{
+
+    padding-left:10px;
+}
+
+#nav a{
+    color:#ffffff;
+}
+
+#nav{
+
+    padding-top:10px;
+    color:#FFFFFF;
+}
+
+#main_container{
+    background-color:#00549E;
+}
+
+/*set mouseover colour of nav bar*/
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #428bca;
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #DEDEDE;
+    height: 600px;
+}

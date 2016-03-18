@@ -1,0 +1,17 @@
+{
+  "uid": "f2c20",
+  "recipient": {
+    "type": "email",
+    "hashed": false,
+    "salt": "",
+    "identity": "wenxinchen11@hotmail.com"
+  },
+  "image": "http://vignette1.wikia.nocookie.net/callofduty/images/b/b1/Happy_face.png/revision/latest?cb=20120119062235",
+  "evidence": "https://example.org/evidence.html",
+  "issuedOn": 1600000000,
+  "badge": "https://s3.amazonaws.com/wenxinbucket1/sample-badge.json",
+  "verify": {
+    "type": "hosted",
+    "url": "https://s3.amazonaws.com/wenxinbucket1/user-badge.json"
+  }
+}
