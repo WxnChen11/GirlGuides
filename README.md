@@ -7,4 +7,4 @@ Currently implementing a system to display and issue badges online.
 Utilizes flask framework and SQL. 
 
 
-[Work in Progress](girlguides.winstonc.me)
+[Work in Progress](http://girlguides.winstonc.me)
