@@ -17,3 +17,7 @@ $("#main_container").css("height", h * 0.9);
 //get width of jumbotron, set displaytable to 90%
 var wJumbo = $("#main_container").width();
 //$("#displayTable").css("width", wJumbo);
+
+$(".badges").hover(function(){($(this).attr("src", "/badgeSampleHover.png"))},function(){($(this).attr("src", "/badgeSample.png"))});
+
+$(".badges").click(function(){$("#dummybutton").trigger('click'); console.log("click")});

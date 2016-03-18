@@ -34,22 +34,61 @@
 
       <div class="jumbotron" id="mainwin">
         <div class="displayTable">
-            <div><img src=""</div>
-            <div>Div 2</div>
-            <div>Div 3</div>
-            <div>Div 4</div>
+            <div><img src="{{ url_for('static', filename='badgeSample.png') }}" class="badges"></div>
+            <div><img src="{{ url_for('static', filename='badgeSample.png') }}" class="badges"></div>
+            <div><img src="{{ url_for('static', filename='badgeSample.png') }}" class="badges"></div>
+            <div><img src="{{ url_for('static', filename='badgeSample.png') }}" class="badges"></div>
         </div>
+      </div>
+
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#infoMod" id="dummybutton">
+    </button>
+
+      <div class="modal fade" id="infoMod" tabindex="-1" role="dialog" aria-labelledby="BadgeInfo">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="BadgeInfo">Badge Information</h4>
+              </div>
+              <div class="modal-body">
+                <div class="list-group">
+                  <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Description</h4>
+                    <p class="list-group-item-text">This badge is awarded to Dylan Smith for completing a TEAM module.</p>
+                  </a>
+
+                  <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Evidence</h4>
+                    <p class="list-group-item-text">Issued by director Paula</p>
+                  </a>
+
+                  <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Date Awarded</h4>
+                    <p class="list-group-item-text">March 12, 2016</p>
+                  </a>
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Full Description</button>
+              </div>
+            </div>
+          </div>
       </div>
 
       <footer class="footer">
         <p>&copy; 2015 Company, Inc.</p>
       </footer>
 
+
     </div> <!-- /container -->
 
 
-<script src="{{ url_for('static', filename='jquery-1.11.1.min.js') }}"></script>
 
+<script src="{{ url_for('static', filename='jquery-1.11.1.min.js') }}"></script>
+<script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
 <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>

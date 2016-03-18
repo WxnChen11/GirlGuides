@@ -1,10 +1,25 @@
+/*Created by Winston Chen on 03/12/16*/
+
+/*main jumbotron container*/
 #mainwin{
 
     background-color:#BDD8F1;
-    height:700px;
     padding:10px;
+    height: 500px;
 }
 
+#dummybutton{
+    visibility:hidden;
+    z-index: -1;
+}
+
+.badges{
+
+    height:100px;
+
+}
+
+/*evenly distribute <div> across row*/
 .displayTable{
     display:flex;
     flex-flow: row wrap;
@@ -13,10 +28,10 @@
 
 .displayTable > div {
     margin-top: 20px;
-    padding: 20px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 
+/*aligning logo*/
 #logo{
 
     padding-left:10px;
@@ -34,9 +49,9 @@
 
 #main_container{
     background-color:#00549E;
-    height:800px;
 }
 
+/*set mouseover colour of nav bar*/
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: #428bca;
     color: #FFFFFF;
@@ -44,4 +59,5 @@
 
 body{
     background-color: #DEDEDE;
+    height: 600px;
 }
