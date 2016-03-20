@@ -2,10 +2,8 @@
  * Created by winston on 18/03/16.
  */
 
-
 //(function(){var s=document.createElement("script");s.onload=function()
 //{bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
-
 
 
 //set height of containers to 90% window height
