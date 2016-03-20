@@ -41,16 +41,4 @@ if(window.innerWidth <= 800 && window.innerHeight <= 600) {
 
        $("#main_container").css("height", h*1.15);
    }
-
 $('body').show();
-var x = 0;
-var fade = function(){
-    x++;
-    if(x>=4){
-        clearInterval(fadeelements);
-    }
-    console.log("fade b" + x);
-    $("#b" + x).css('visibility','visible').hide().fadeIn(600);
-}
-
-var fadeelements = setInterval(fade, 700);

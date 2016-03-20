@@ -76,3 +76,16 @@ body{
     font-size:15px;
     font-weight: bold;
 }
+
+#b1{
+    visibility: hidden;
+}
+#b2{
+    visibility: hidden;
+}
+#b3{
+    visibility: hidden;
+}
+#b4{
+    visibility: hidden;
+}
