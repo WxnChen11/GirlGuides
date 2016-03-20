@@ -21,15 +21,17 @@
 
   <div class="container img-rounded" id="main_container">
       <div class="header clearfix">
+
         <nav>
+            <img src="{{ url_for('static', filename='logo2.jpg') }}" height="60" id="logo">
+
           <ul class="nav nav-pills pull-right" id="nav">
             <li role="presentation" class="active"><a href="#">Badges</a></li>
-            <li role="presentation"><a href="#">Display</a></li>
-            <li role="presentation"><a href="#">Issue</a></li>
+            <li role="presentation"><a href="/display">Display</a></li>
+            <li role="presentation"><a href="/issue">Issue</a></li>
           </ul>
         </nav>
 {#        <h3 class="text-muted">Project name</h3>#}
-          <img src="{{ url_for('static', filename='logo2.jpg') }}" height="60" id="logo">
       </div>
 
       <div class="jumbotron" id="mainwin">
@@ -40,9 +42,6 @@
             <div><img src="{{ url_for('static', filename='badgeSample.png') }}" class="badges"></div>
         </div>
       </div>
-
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#infoMod" id="dummybutton">
-    </button>
 
       <div class="modal fade" id="infoMod" tabindex="-1" role="dialog" aria-labelledby="BadgeInfo">
           <div class="modal-dialog" role="document">
@@ -55,12 +54,12 @@
                 <div class="list-group">
                   <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Description</h4>
-                    <p class="list-group-item-text">This badge is awarded to Dylan Smith for completing a TEAM module.</p>
+                    <p class="list-group-item-text">This badge is awarded to (NAME) for completing a TEAM module.</p>
                   </a>
 
                   <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Evidence</h4>
-                    <p class="list-group-item-text">Issued by director Paula</p>
+                    <p class="list-group-item-text">Issued by director (NAME)</p>
                   </a>
 
                   <a href="#" class="list-group-item">
@@ -79,9 +78,11 @@
       </div>
 
       <footer class="footer">
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>&copy; 2016 Company, Inc.</p>
       </footer>
 
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#infoMod" id="dummybutton">
+    </button>
 
     </div> <!-- /container -->
 
